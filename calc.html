@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calc.css">
+    <script src="./calc.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body class="light-mode">
+    <div class="container">
+
+        <!-- dark mode switch -->
+        <button class="dark-mode-toggle">
+            <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496"><path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/></svg>
+        </button>
+
+        <div class="calc-body">
+            
+            <div class="display">
+                <div class="prev-display" data-prev></div>
+                <div class="current-display" data-current></div>
+            </div>    
+            
+            <button class="clear span-two" data-all-clear>AC</button>
+            <button class="operator" data-delete>DEL</button>
+            <button class="operator" data-operator>÷</button>
+            <button class="num" data-num>7</button>
+            <button class="num" data-num>8</button>
+            <button class="num" data-num>9</button>
+            <button class="operator" data-operator>x</button>
+            <button class="num" data-num>4</button>
+            <button class="num" data-num>5</button>
+            <button class="num" data-num>6</button>
+            <button class="operator" data-operator>-</button>
+            <button class="num" data-num>1</button>
+            <button class="num" data-num>2</button>
+            <button class="num" data-num>3</button>
+            <button class="operator" data-operator>+</button>
+            <button class="num span-two" data-num>0</button>
+            <button class="num" data-num>.</button>
+            <button class="equal" data-equal>=</button>
+
+        </div>
+        
+    </div>
+</body>
+</html>
